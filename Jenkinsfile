@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build with Maven') {
             steps {
-                bat 'mvn clean package'
+                bat '"C:\\Users\\Faaliha\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin\\mvn.cmd" clean package'
             }
         }
         stage('Archive Artifacts') {
